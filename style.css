@@ -159,6 +159,7 @@ nav ul li a:hover::after {
 }
 .services-list div {
   background-color: #262626;
+  border: 2px solid #f4f2f6;
   padding: 45px;
   font-size: 14px;
   font-weight: 300;
@@ -186,5 +187,26 @@ nav ul li a:hover::after {
 }
 .services-list div:hover {
   background: #a855f7;
+  border-color: #a855f7;   
   transform: translateY(-10px);
+}
+/*--------------Portfolio-----------------*/
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+.work-list {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border-color: #f3f1f2;
+  border-style: solid;
 }
