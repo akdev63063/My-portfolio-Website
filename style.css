@@ -348,3 +348,34 @@ nav ul li a:hover::after {
   object-fit: contain;
   background: #fff;
 }
+#certificate {
+  padding: 60px 0;
+}
+.certificate-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  gap: 35px;
+  margin-top: 50px;
+}
+.cert {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.cert img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.cert h3 {
+  padding: 15px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.cert:hover {
+  transform: translateY(-10px);
+}
