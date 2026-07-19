@@ -213,7 +213,7 @@ nav ul li a:hover::after {
 .layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), hsl(341, 74%, 72%));
+  background: linear-gradient(rgba(232, 33, 33, 0.639), hsl(0, 82%, 63%));
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -375,7 +375,7 @@ nav ul li a:hover::after {
 .int-cert {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), hsl(218, 89%, 52%));
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #b16af4);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -427,4 +427,40 @@ nav ul li a:hover::after {
   height: 260px;
   object-fit: contain;
   background: #fff;
+}
+
+/*===============Contact================*/
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-right {
+  flex-basis: 60%;
+}
+
+.contact-left p {
+  margin-top: 30px;
+}
+
+.contact-left p {
+  color: #9dacf6;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.social-icon {
+  margin-top: 30px;
+}
+
+.social-icon a {
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icon a:hover {
+  color: #ff004f;
+  transform: translateY(-5px);
 }
