@@ -464,3 +464,52 @@ nav ul li a:hover::after {
   color: #ff004f;
   transform: translateY(-5px);
 }
+
+.btn.btn2 {
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #0e19ed;
+  transition: transform 0.5s;
+}
+
+.btn.btn2:hover {
+  transform: translateY(-5px);
+}
+
+.contact-right form {
+  height: 100%;
+}
+form input,
+form textarea {
+  width: 90%;
+  border: 0;
+  outline: #f3f4f7;
+  background: #262626;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+.btn.btn3 {
+  display: inline-block;
+  margin-top: 11px;
+  background-color: #0e19ed;
+  margin-left: 12px;
+  width: 90%;
+  transition: transform 0.5s;
+}
+.btn.btn3:hover {
+  transform: translateY(-5px);
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background-color: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+/*--------------------css for small screen--------------------*/
+@media only screen and (max-width: 600) {
+}
