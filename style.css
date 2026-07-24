@@ -356,21 +356,21 @@ nav ul li a:hover::after {
   padding: 60px 0;
 }
 .certificate-list {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  gap: 35px;
-  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 50px;
 }
 .cert {
-  border-radius: 10px;
   position: relative;
   overflow: hidden;
+  border-radius: 10px;
 }
 .cert img {
   width: 100%;
   height: 280px;
   object-fit: cover;
-  display: block;
   border-radius: 10px;
   border: 5px solid hwb(240 3% 5%);
   transition: transform 0.5s;
@@ -379,17 +379,19 @@ nav ul li a:hover::after {
   width: 100%;
   height: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.6), #b16af4);
+  /*(rgba(232, 33, 33, 0.639), hsl(0, 82%, 63%));*/
   border-radius: 10px;
   position: absolute;
   left: 0;
   bottom: 0;
   overflow: hidden;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 25px;
+  flex-direction: column;
+  padding: 0 40px;
   text-align: center;
+  font-size: 14px;
   transition: height 0.5s;
 }
 .int-cert h3 {
@@ -520,8 +522,8 @@ body {
 }
 
 /*--------------------css for small screen--------------------*/
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
   #header {
-    background-image: url(images/white\ -\ Copy.png);
+    background-image: url(images/phoneback.png);
   }
 }
