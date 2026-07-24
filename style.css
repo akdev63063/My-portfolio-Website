@@ -356,12 +356,18 @@ nav ul li a:hover::after {
   padding: 60px 0;
 }
 .certificate-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 35px;
+  margin-top: 40px;
+}
+/* .certificate-list {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   margin-top: 50px;
-}
+} */
 .cert {
   position: relative;
   overflow: hidden;
